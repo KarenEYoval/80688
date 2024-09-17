@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 04</title>
+    <style>
+        img{
+            border-radius: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Random picture</h1>
+  <div id="app"></div>
+
+<script>
+const app=document.getElementById("app")
+const url= "https://picsum.photos/id/"
+const size ="/200/200"
+const picture = parametro => {
+const src= url+parametro+size
+return `<figure>
+        <img src="https://picsum.photos/id/${parametro}/200/200" alt="">
+        <figcaption id="a1">${parametro}</figcaption>
+    </figure> `
+
+}
+console.log(picture())
+app.innerHTML= picture(1)+picture(2)+picture(3)+picture(4)
+
+</script>
+
+</body>
+</html>
