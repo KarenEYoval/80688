@@ -1,8 +1,14 @@
-img{
-    border-radius: 100px;
-    box-shadow: 20px 20px 30px red;
+img {
+  border-radius:100px;
+  box-shadow: 20px 20px 30px red;
 }
+
 figure {
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
+}
+
+.redonda {
+    border-radius: 15px 50px 100px 75px;
+
 }
