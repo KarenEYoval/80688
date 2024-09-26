@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 15px 20px 10px;
+}
+h1 {
+  text-align: center;
+}
+input {
+  margin-bottom: 20px;
+}
