@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="Practica07.css">
+   
+</head>
+<body >
+  <div id="1">
+    <h1>Formulario de contacto</h1>
+    <form action="/action_page.php" id="formulario">
+        <fieldset>
+            <legend>Información Personal:</legend>
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre"><br>
+            <label for="Correo">Correo Electrónico:</label><br>
+            <input type="text" id="Correo" name="Correo"><br>
+        </fieldset>
+        <br><br>
+        <fieldset>  
+            <legend>Información de dirección:</legend>
+            <label for="Dirección">Dirección:</label><br>
+            <input type="text" id="Dirección" name="Dirección"><br>
+            <label for="Ciudad">Ciudad:</label><br>
+            <input type="text" id="Ciudad" name="Ciudad"><br>
+        </fieldset>
+      
+        <input class="form-control btn btn-primary" type="submit" value="Enviar" id="Enviar">
+    </form>
+  </div>
+  
+    <script src="practica07.js"></script>
+</body>
+</html>

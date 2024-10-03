@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  form {
+    max-width: 400px;
+    max-height: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 15px 20px 10px;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  input {
+    margin-bottom: 20px;
+  }
+  
+
+#Enviar {
+    color: white;               
+    background-color: rgb(29, 29, 198);      
+    width: 100%;
+    border: none;                 
+    padding: 10px 20px;          
+    font-size: 16px;              
+    cursor: pointer;              
+    border-radius: 5px;        
+    display: block;            
+    margin: 20px auto;           
+   
+}
+
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+  display: block;
+    font-family: 'Arial', sans-serif;
+}
