@@ -1,0 +1,15 @@
+
+  label{
+    display:block;
+}
+
+input{
+    width: 100%;
+    height: 1.5 rem;
+    margin-bottom: 10px;
+}
+  
+input[type="submit"] {
+    background-color: blue;
+    height: 3rem;
+} 
